@@ -1,0 +1,77 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    border-bottom: 2px solid #000;
+}
+
+.logo, .banner {
+    padding: 20px;
+    text-align: center;
+    border-right: 2px solid #000;
+}
+
+.logo {
+    width: 30%;
+}
+
+.banner {
+    width: 70%;
+    border-right: none;
+}
+
+.menu {
+    display: flex;
+    border-bottom: 2px solid #000;
+}
+
+.menu-item {
+    padding: 12px;
+    text-align: center;
+    border-right: 2px solid #000;
+    flex: 1;
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+.order {
+    flex: 2;
+    border-right: none;
+}
+
+
+.content {
+    display: flex;
+    min-height: 300px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    border-right: 2px solid #000;
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.main-content {
+    width: 75%;
+    padding: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.sidebar {
+    width: 25%;
+    border-right: 1px solid #ccc;
+    padding: 16px;
+}
+
+.menu-button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #e0e0e0;
+}
+
+.main-content {
+    flex: 1;
+    padding: 16px;
+}
